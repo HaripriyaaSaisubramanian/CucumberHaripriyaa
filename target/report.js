@@ -1,123 +1,215 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("C:/Users/home/eclipse-workspace/Cucumber/src/main/resources/feature/AddTariff.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("C:/Users/home/eclipse-workspace/Cucumber/src/test/resources/feature/demo.feature");
 formatter.feature({
-  "name": "Add tariff",
-  "description": "  I want to use this template for my feature file",
-  "keyword": "Feature"
-});
-formatter.scenario({
-  "name": "Title of your scenario",
+  "name": "Selenium easy web",
   "description": "",
-  "keyword": "Scenario"
+  "keyword": "Feature",
+  "tags": [
+    {
+      "name": "@tag"
+    }
+  ]
+});
+formatter.background({
+  "name": "",
+  "description": "",
+  "keyword": "Background"
 });
 formatter.step({
-  "name": "The user will be in  guru telecom homepage",
+  "name": "In selenium easy home page",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "AddTariffplan.the_user_will_be_in_guru_telecom_homepage()"
+  "location": "Demo_cucumber.in_selenium_easy_home_page()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
-  "name": "The user will click add tariff plan",
+  "name": "Click input forms",
   "keyword": "And "
 });
 formatter.match({
-  "location": "AddTariffplan.the_user_will_click_add_tariff_plan()"
+  "location": "Demo_cucumber.click_input_forms()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
+});
+formatter.scenario({
+  "name": "Selenium easy task input forms(Simple form demo)",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@tag"
+    },
+    {
+      "name": "@tag1"
+    }
+  ]
 });
 formatter.step({
-  "name": "The will fill all datas",
+  "name": "Insert all the details",
+  "rows": [
+    {
+      "cells": [
+        "Enter a and b value",
+        "20",
+        "40"
+      ]
+    }
+  ],
   "keyword": "When "
 });
 formatter.match({
-  "location": "AddTariffplan.the_will_fill_all_datas()"
+  "location": "Demo_cucumber.insert_all_the_details(DataTable)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
-  "name": "The user will submit",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "AddTariffplan.the_user_will_submit()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "I validate the message",
+  "name": "Validate the outcomes",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "AddTariffplan.i_validate_the_message()"
+  "location": "Demo_cucumber.validate_the_outcomes()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
-formatter.uri("C:/Users/home/eclipse-workspace/Cucumber/src/main/resources/feature/addcustomer.feature");
-formatter.feature({
-  "name": "Addcustomer",
-  "description": "  I want to use this template for my feature file",
-  "keyword": "Feature"
-});
-formatter.scenario({
-  "name": "Get order ID",
+formatter.background({
+  "name": "",
   "description": "",
-  "keyword": "Scenario"
+  "keyword": "Background"
 });
 formatter.step({
-  "name": "The user will be in telecom homepage",
+  "name": "In selenium easy home page",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "AddCustomerSteps.the_user_will_be_in_telecom_homepage()"
+  "location": "Demo_cucumber.in_selenium_easy_home_page()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
-  "name": "The user will click add customer",
+  "name": "Click input forms",
   "keyword": "And "
 });
 formatter.match({
-  "location": "AddCustomerSteps.the_user_will_click_add_customer()"
+  "location": "Demo_cucumber.click_input_forms()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
+});
+formatter.scenario({
+  "name": "Selenium easy task input forms(Check box demo)",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@tag"
+    },
+    {
+      "name": "@tag2"
+    }
+  ]
 });
 formatter.step({
-  "name": "The will fill the details",
+  "name": "Select the required options",
   "keyword": "When "
 });
 formatter.match({
-  "location": "AddCustomerSteps.the_will_fill_the_details()"
+  "location": "Demo_cucumber.select_the_required_options()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
-  "name": "The user will click submit",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "AddCustomerSteps.the_user_will_click_submit()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "The user will get order id",
+  "name": "Validate the required outcomes",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "AddCustomerSteps.the_user_will_get_order_id()"
+  "location": "Demo_cucumber.validate_the_required_outcomes()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
+});
+formatter.step({
+  "name": "check more outcomes",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Demo_cucumber.check_more_outcomes()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.background({
+  "name": "",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.step({
+  "name": "In selenium easy home page",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "Demo_cucumber.in_selenium_easy_home_page()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.step({
+  "name": "Click input forms",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Demo_cucumber.click_input_forms()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.scenario({
+  "name": "Selenium easy task input forms(Radio Button Demo)",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@tag"
+    },
+    {
+      "name": "@tag3"
+    }
+  ]
+});
+formatter.step({
+  "name": "I complete action",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "Demo_cucumber.i_complete_action()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.step({
+  "name": "I validate the outcomes",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "Demo_cucumber.i_validate_the_outcomes()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.step({
+  "name": "check more outcomes",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Demo_cucumber.check_more_outcomes()"
+});
+formatter.result({
+  "status": "skipped"
 });
 });
